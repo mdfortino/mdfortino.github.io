@@ -1,5 +1,5 @@
 .banner {
-    background-image: linear-gradient(to right top, #dce2eb, #dbe4eb, #dbe5eb, #dbe7eb, #dce8ea);
+  background-image: linear-gradient(to right top, #dce2eb, #dbe4eb, #dbe5eb, #dbe7eb, #dce8ea);
 	color: #4C4E4F;
     text-align: center;
     font-weight: bold; 
@@ -32,7 +32,9 @@
     margin: 20px; 
 }
 #brand img{
-    padding: 20px; 
+		padding: 20px; 
+		border-radius: 50%;
+		
 }
 
 
@@ -63,21 +65,21 @@ h2 {
 } 
 
 .subpage {
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
 	color: darkgrey;
 	margin-top: 20px;
 	 
 }
 
-/* #mywork h2 {
-    font-family: 'Roboto', sans-serif;
-	color: darkgrey;
-	font-size: 20px;
-	color:#b9c5c8;
-	line-height: 55px;
-	font-size: 35px;
-	letter-spacing: 2px;
-} */
+#mywork {
+  height: auto;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 8%;
+}
+
 
 
 button {
