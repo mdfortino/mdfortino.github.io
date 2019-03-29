@@ -9,17 +9,16 @@ html {
 		font-family: 'Roboto', sans-serif;
 	/* padding: 0px 10px 10px 10px; */
 	position: relative;
-    height: 200px;
+    height: 180px;
     /* margin-top: 50px;  */
 	overflow: hidden;
 }
 #contact p{
 	font-family: 'Roboto Slab', serif;
 	text-align: center;  
-    color: darkgrey;
-	font-size: 15px;
-	letter-spacing: 1px;
-	
+  color: darkgrey;
+	font-size: 18px;
+	letter-spacing: 1px; 
 	line-height: 45px;
 }
 
@@ -147,9 +146,12 @@ footer p {
 
 footer img {
 	padding: 10px;
-	height: 25px;
+	height: 50px;
 
 } 
+#resume {
+	text-decoration-style: dotted
+}
 
 footer img:hover {
 	opacity: .5;
