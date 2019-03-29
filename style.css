@@ -61,7 +61,7 @@ h1 {
 
 h2 {
 	font-family: 'Roboto', sans-serif;
-	color: darkgrey;
+	/* color: darkgrey; */
 	font-size: 20px;
 	text-transform:uppercase;
 	letter-spacing:4px;
@@ -88,23 +88,6 @@ button {
 	padding-top: 53px;
 }
 
-ul {
-	text-align: center;
-	background-color: rgba(185, 197, 200, 0.4);
-	display:flex;
-	justify-content:center;
-	line-height:50px;
-	font-size: 20px;
-}
-
-.nav li {
-	display: inline-block;
-width: 8em;}
-
-.nav li a {
-	color: #889696;
-	cursor: pointer;
-}
 
 img {
 margin-top: 5px;
@@ -114,7 +97,7 @@ margin-bottom: 20px;
 }
 .projects {
 	text-align: center;
-	/* padding: 20px 0 0 20px; */
+	padding: 20px 0 0 20px;
 	font-family: 'Roboto', sans-serif;
 	
 }
@@ -126,9 +109,9 @@ margin-bottom: 20px;
 
 .card {
 	display: inline-block;
-	/* padding: 15px;
-	margin: 15px; */
-	max-width: 35%;
+	padding: 15px;
+	margin: 15px;
+	max-width: 50%;
 	font-family: 'Roboto', sans-serif;
 	
 }
