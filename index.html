@@ -3,7 +3,8 @@
 
 <head>
    <title>Maria Fortino</title>
-   <link href="https://fonts.googleapis.com/css?family=Oswald|Fjalla+One|Pathway+Gothic+One" rel='stylesheet' type='text/css'>
+   <link href="https://fonts.googleapis.com/css?family=Oswald|Fjalla+One|Pathway+Gothic+One" rel='stylesheet'
+      type='text/css'>
    <link href="style.css" rel="stylesheet">
    <link rel='shortcut icon' href='img/favicon3.ico' type='image/x-icon' />
    <meta property="og:image" content="#" />
@@ -16,78 +17,74 @@
 
 
    <div id="brand">
-       <h3> 
-            <img class=img src="logos/images/profilepic.jpeg" align = "left">
-         <br> I am a full stack developer committed to breaking down complex problems, while maintaining a strong focus in accessibility. With a background in law and education, I am skilled at facilitating high-quality and timely results for cross-functional teams.</h3>
-      <br> 
+      <h3>
+         <img class=img src="logos/images/profilepic.jpeg" align="left">
+         <br> I am a full stack developer committed to breaking down complex problems, while maintaining a strong focus
+         in accessibility. With a background in law and education, I am skilled at facilitating high-quality and timely
+         results for cross-functional teams.</h3>
+      <br>
 
       <!-- <h2> Contact -->
-      
+
       <!-- +1 (202) 680 9549 <a href="mailto:mdfortino@gmail.com" target="_top">mdfortino@gmail.com</a> -->
-   </h2>   
- <br> 
+      </h2>
+      <br>
       <h2>Technical Skills</h2>
       <p>Languages, Frameworks, Protocols: JavaScript, Node.js, HTML, CSS, Express, Python, Handlebars, React </p>
       <p>Management & Deployment: Git, GitHub, Heroku </p>
       <p>Databases: Mongo, Mongoose, SQL, NoSQL</p>
-      <p>Methodologies: Object Oriented Programming, MVC Pattern,Test-Driven Development, Responsive Design, Scrum,Authentication, User Stories, ERDs, Wireframing</p>
+      <p>Methodologies: Object Oriented Programming, MVC Pattern,Test-Driven Development, Responsive Design,
+         Scrum,Authentication, User Stories, ERDs, Wireframing</p>
    </div>
 
    <!-- My Work -->
+   <div class='projects' id='projects'>
+      <h2>Check out some of my work</h2>
 
-  
-  
-      <!-- <div class="subpage" id="mywork"> -->
-            <h2>Check out some of my work</h2>
-      <ul> 
-      <li> 
-            <img src= "logos/images/trivia.jpg" alt="screenshot of national parks trivia game">
-      <h3> I built a self-scoring national parks trivia game with JavaScript, HTML and CSS.</h3>
-   <p> 
-      <br> 
-      <br> 
-   <a id = "trivia" href="https://mdfortino.github.io/Project-1-Trivia-Game/"><button > Deployed Version </button> </a>
-   <a href = "https://github.com/mdfortino/Project-1-Trivia-Game">  <button> Github</button></a>
-  
-</p>
-</li>
-<li>
-  <img src= "logos/images/breather.jpg"alt="screenshot of breather app">
-  <h3> I designed and built a full-stack application with full CRUD functionality using the MEHN stack (Mongoose, Express, Handlebars, and Node) and deployed on Heroku, for teams to cultivate mindfulness through intention setting and meditation.</h3>
-  <p> 
-      <a id="breather" href="https://breatherapp.herokuapp.com/"> 
-         <button > Deployed Version </button></a>
-      <a href = "https://github.com/mdfortino/Project-2"> <button> Github</button></a>
-   </p>
-<p> 
-   </li>
-   <li> 
-      <img src= "logos/images/a11y.jpg"alt="screenshot of a11y site">
-      <h3> I built a fully accessible (508/WCAG compliant) site for developers to build accessible web formats with optimal SEO performance, built with React, Gatsby.js, and Axe. </h3>
-      <p> 
-      <a id = "a11y" href= "http://a11y-toolkit.surge.sh/">
-         <button > Deployed Version </button></a>
-      <a href="https://github.com/mdfortino/a11y-site"><button> Github</button></a>
-   </p>
-</li>
-<li> 
-   <img src="logos/images/snack.jpg"alt="screenhot of snack-tracker app">
-   <h3> I worked with two other developers to build a full-stack application using the MERN stack (MongoDB, Express, React, and Node), with the front end deployed on Surge, and the back end deployed on Heroku. I built out the back-end and ensured the routes were properly set up before moving to the front-end to control the data flow in the components with state and props through peer programming.
-   </h3>
-   <a id = "snack-tracker" href="http://snack-tracker.surge.sh/">
-   <button> Deployed Version</button></a>
-   <a href="https://github.com/JakeBrackney/Snack-Tracker-Frontend"> <button> Github Front-end Repo</button></a>
-   <a href="https://github.com/JakeBrackney/Snack-Tracker-Backend"><button> Github Back-end Repo</button></a>
-</li>
-</ul>
+      <div class='card'>
+         <img src="logos/images/trivia.jpg" alt="screenshot of national parks trivia game">
+         <h3>National Parks Trivia</h3>
+         <p>As an avid learner and hiker, I designed and built a self-scoring national parks trivia game with JavaScript, HTML and CSS.</p>
+         <p>
+            <a id="trivia" href="https://mdfortino.github.io/Project-1-Trivia-Game/"><button> Deployed Version </button>
+            </a>
+            <a href="https://github.com/mdfortino/Project-1-Trivia-Game"> <button> Github</button></a>
+      </div>
+      <div class='card'>
+         <img src="logos/images/breather.jpg" alt="screenshot of breather app">
+         <h3> Breather</h3>
+         <p> Combining my passions for coaching athletes and teaching yoga, I designed and built a full-stack application with full CRUD functionality using the MEHN stack (Mongoose,Express, Handlebars, and Node) and deployed on Heroku, for teams to cultivate mindfulness through intention setting, meditation and reflection.<p>
+               <a id="breather" href="https://breatherapp.herokuapp.com/">
+                  <button> Deployed Version </button></a>
+               <a href="https://github.com/mdfortino/Project-2"> <button> Github</button></a>
+      </div>
+      <div class='card'>
+         <img src="logos/images/a11y.jpg" alt="screenshot of a11y site">
+         <h3> A11y Toolkit</h3>
+         <p> I built a fully accessible (508/WCAG compliant) site with React, Gatsby.js, and Axe for developers to build accessible web formats with optimal SEO performance. In addition to learning Section 508 and the Web Content Accessibility Guidelines, I taught myself automated testing with Selenium, AXe core, WAVE, and Cypress.</p>
+         <a id="a11y" href="http://a11y-toolkit.surge.sh/">
+            <button> Deployed Version </button></a>
+         <a href="https://github.com/mdfortino/a11y-site"><button> Github</button></a>
+      </div>
+      <div class='card'>
+         <img src="logos/images/snack.jpg" alt="screenhot of snack-tracker app">
+         <h3> Snack Tracker</h3>
+         <p> I worked on a team to build a full-stack application using the MERN stack (MongoDB,
+         Express, React, and Node), with the front end deployed on Surge, and the back end deployed on Heroku. I
+         built out the back-end before working on the front-end through peer programming.
+         </p>
+         <a id="snack-tracker" href="http://snack-tracker.surge.sh/">
+            <button> Deployed Version</button></a>
+         <a href="https://github.com/JakeBrackney/Snack-Tracker-Frontend"> <button> Github Front-end Repo</button></a>
+         <a href="https://github.com/JakeBrackney/Snack-Tracker-Backend"><button> Github Back-end Repo</button></a>
+      </div>
    </div>
-<!-- <div class = "contact" id = "contact">
-         +1 (202) 680 9549 <a href="mailto:mdfortino@gmail.com" target="_top">mdfortino@gmail.com</a>
-</div> -->
+
    <footer>
       <p> mdfortino@gmail.com </p>
       <!-- <a id="Resume" href="images/Maria_Fortino_Resume.pdf"> Resume</a> -->
-      <a id="linkedin" href="https://www.linkedin.com/in/mfortino/"> <img src="logos/linkedin.png" alt="LinkedIn logo"></a>
+      <a id="linkedin" href="https://www.linkedin.com/in/mfortino/"> <img src="logos/linkedin.png"
+            alt="LinkedIn logo"></a>
       <a id="github" href="https://github.com/mdfortino"> <img src="logos/github-logo.png" alt="GitHub logo"> </a>
       <br>
 

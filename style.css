@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .banner {
   background-image: linear-gradient(to right top, #dce2eb, #dbe4eb, #dbe5eb, #dbe7eb, #dce8ea);
 	color: #4C4E4F;
@@ -70,24 +74,6 @@ h2 {
 
 } 
 
-.subpage {
-  font-family: 'Roboto', sans-serif;
-	color: darkgrey;
-	margin-top: 0px;
-	 
-}
-
-#mywork {
-  height: auto;
-  width: 100vw;
-  /* display: flex;
-  flex-direction: row;
-  align-items: center; */
-  padding-top: 8%;
-}
-
-
-
 button {
 	background-color: transparent;
 	border: 1px solid #4C4E4F;
@@ -119,47 +105,31 @@ width: 8em;}
 	cursor: pointer;
 }
 
-/* link stuff */
-
-a {
-	color: #628395;
-	transition:  0.3s ease-in-out;
-}
-
-a:visited {
-	color: #889696;
-}
-
-a:hover {
-	color: #b9c5c8 !important;
-}
-
-a:active {
-	color: #b9c5c8;
-}
-
 img {
 margin-top: 5px;
 height: 200px;
 margin-bottom: 20px; 
 
 }
+.projects {
+	text-align: center;
+	padding: 20px 0 0 20px;
+	font-family: 'Roboto', sans-serif;
+}
 
+.project {
+	max-height: 200px;
+	border-radius: 5px;
+	
+}
 
-/* .image_on {
-  position:absolute;
-  transition: opacity .4s ease-in-out;
-} */
-
-/* .image_on:hover {
-  opacity:0;
-} */
-
-
-
-
-
-/* footer  */
+.card {
+	display: inline-block;
+	padding: 15px;
+	margin: 15px;
+	max-width: 35%;
+	
+}
 
 footer {
 	width: 100%;
