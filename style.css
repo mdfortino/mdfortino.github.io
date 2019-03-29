@@ -150,7 +150,7 @@ footer img {
 
 } 
 #resume {
-	text-decoration-style: dotted
+	text-decoration: none; 
 }
 
 footer img:hover {
