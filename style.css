@@ -6,7 +6,7 @@ html {
   background-image: linear-gradient(to right top, #dce2eb, #dbe4eb, #dbe5eb, #dbe7eb, #dce8ea);
 	color: #4C4E4F;
     text-align: center;
-    font-weight: bold; 
+		font-family: 'Roboto', sans-serif;
 	/* padding: 0px 10px 10px 10px; */
 	position: relative;
     height: 200px;
@@ -14,21 +14,20 @@ html {
 	overflow: hidden;
 }
 #contact p{
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto Slab', serif;
 	text-align: center;  
     color: darkgrey;
 	font-size: 15px;
 	letter-spacing: 1px;
-	font-weight:bold;
+	
 	line-height: 45px;
 }
 
-#brand{
-    font-family: 'Roboto', sans-serif;
+#brand, #skills{
+    font-family: 'Roboto Slab', serif;
     color: #4C4E4F; 
-	font-weight: bold;
-	line-height: 19px;
-    font-size: 15px;
+	line-height: 30px;
+    font-size: 18px;
 	padding: 18px; 
     /* display: flex;  */
     /* flex-direction: column; 
@@ -62,9 +61,8 @@ h1 {
 h2 {
 	font-family: 'Roboto', sans-serif;
 	/* color: darkgrey; */
-	font-size: 20px;
+	font-size: 18px;
 	text-transform:uppercase;
-	letter-spacing:4px;
 	color: #889696;
 	opacity:.8;
 	line-height: 20px;
@@ -119,6 +117,10 @@ margin-bottom: 20px;
 	margin-bottom: 2em;	
 	flex: 0 1 24%;
 	
+}
+.project {
+	width: 90%;
+	margin: 0 auto;
 }
 
 h3, p{
